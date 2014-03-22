@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1008]D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\BankCheck_MIchaelArellano.Test.dll</TopNode>
+  <SelectedNode>[0-1008]D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\BankCheck_MIchaelArellano.Test.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1008]D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\BankCheck_MIchaelArellano.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1009]BankingCheck_MichaelArellano" Expanded="true" />
+    <Node UniqueName="[0-1010]BankingCheck_MichaelArellano.Helper" Expanded="true" />
+    <Node UniqueName="[0-1011]BankingCheck_MichaelArellano.Helper.Test" Expanded="true" />
+    <Node UniqueName="[0-1000]BankingCheck_MichaelArellano.Helper.Test.NumberToWordsTest" Expanded="true" />
+    <Node UniqueName="[0-1001]BankingCheck_MichaelArellano.Helper.Test.NumberToWordsTest.NumberToWordsTestCases" Expanded="true" />
+  </Nodes>
+</VisualState>

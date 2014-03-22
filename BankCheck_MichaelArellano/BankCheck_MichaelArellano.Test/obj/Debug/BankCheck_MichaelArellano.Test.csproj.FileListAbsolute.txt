@@ -1,0 +1,6 @@
+D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\BankCheck_MichaelArellano.Test.dll
+D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\BankCheck_MichaelArellano.Test.pdb
+D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\nunit.framework.dll
+D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\bin\Debug\Softest.Numbers.dll
+D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\obj\Debug\BankCheck_MichaelArellano.Test.dll
+D:\Development\SPHealth\BankCheck_MichaelArellano\BankCheck_MIchaelArellano.Test\obj\Debug\BankCheck_MichaelArellano.Test.pdb

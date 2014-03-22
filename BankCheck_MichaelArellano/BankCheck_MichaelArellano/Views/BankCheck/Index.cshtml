@@ -1,0 +1,73 @@
+﻿@model BankingCheck_MichaelArellano.Models.BankingCheck
+
+<h2>Bank Cheque</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <div class="form-block">
+            <div class="editor-label">
+                @Html.LabelFor(model => model.AccountName)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.AccountName, new { maxlength = "50" })
+                <br />
+                @Html.ValidationMessageFor(model => model.AccountName)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.CheckDate)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.CheckDate, "{0:dd/MM/yyyy}", new { @class = "datepicker" })
+                <br />
+                @Html.ValidationMessageFor(model => model.CheckDate)
+            </div>
+            <div class="editor-label">
+                @Html.LabelFor(model => model.AmountInNumbers)
+            </div>
+            <div class="editor-field">
+                @Html.TextBoxFor(model => model.AmountInNumbers, "{0:##,###,###.00}", new { maxlength = "12" })
+                <br />
+                @Html.ValidationMessageFor(model => model.AmountInNumbers)
+            </div>
+            <p>
+                <input type="submit" value="Preview" name="Command" />
+                <input type="submit" value="Reset" name="Command" class="cancel" />
+            </p>
+        </div>
+    </fieldset>
+    
+    <fieldset id="checkfieldset" style="display: none">
+        <legend>Cheque Preview</legend>
+        <div class="check-container">
+            <div class="account-name">@Html.Encode(Model.AccountName)</div>
+            <div class="check-date">@Model.CheckDate.ToString("dd/MM/yyyy")</div>
+            <div class="amount-in-words">@Html.Encode(Model.AmountInWords)</div>
+        </div>
+    </fieldset>
+
+}
+
+@section Scripts {
+
+    @Scripts.Render("~/bundles/jqueryval")
+
+    <script>
+
+        $(function () {
+            $(".datepicker").datepicker({ dateFormat: "dd/mm/yy" });
+        });
+
+        @if (Model.IsCheckVisible)
+        {
+            <text>
+                $(function () {
+                    $("#checkfieldset").show("slow");
+                });
+            </text>
+        }
+
+    </script>
+}
